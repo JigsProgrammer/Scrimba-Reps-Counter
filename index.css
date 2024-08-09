@@ -1,19 +1,20 @@
 body {
     background-image: url("Gym.png");
     background-size: cover;
-    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
     height: 100vh;
 }
 
 .max-width {
-    max-width: 70%;
+    max-width: 50%;
     text-align: center;
     display: block;
     margin: auto;
-    background: white;
+    background: #FFE0B5;
     padding: 10px;
-    border: 3px solid #020202;
+    margin-top: 300px;
+    border: 3px solid #462521;
     border-radius: 10px;
 }
 
@@ -40,15 +41,15 @@ button {
 }
 
 #increment-btn {
-    background: darkred;
+    background: #462521;
 }
 
 #save-btn {
-    background: darkgreen;
+    background: #8A6552;
 }
 
 #save-el {
-    background: lightskyblue;
+    background: #8A6552;
     border-radius: 5px;
     padding: 5px 10px;
 }
